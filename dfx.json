@@ -9,7 +9,7 @@
         "sqlite_interp"
       ],
       "frontend": {
-        "entrypoint": "src/sqlite_interp_assets/src/index.html"
+        "entrypoint": "src/sqlite_interp_assets/dist/index.html"
       },
       "source": [
         "src/sqlite_interp_assets/assets",
@@ -27,7 +27,7 @@
   "dfx": "0.8.0",
   "networks": {
     "local": {
-      "bind": "127.0.0.1:8000",
+      "bind": "0.0.0.0:8000",
       "type": "ephemeral"
     }
   },
